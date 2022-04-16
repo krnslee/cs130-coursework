@@ -5,17 +5,64 @@
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    
+}
+
 header, section {
     padding: 20px;
 }
+h1 {
+    text-align: center;
+}
+h2 {
+    margin: 0px;
+    height:fit-content;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 p, li {
     line-height: 1.5em;
+    font-size:x-large;
+    color:white;    
+}
+
+#tutorials {
+    background-color: #827397;
+}
+
+#homework {
+    background-color: #4D4C7D;
 }
 
 #inspiration {
     background-color: #F0F0F0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+#inspiration a, 
+#inspiration a:link,
+#inspiration a:hover, 
+#inspiration a:visited,
+#lecture a, 
+#lecture a:link,
+#lecture a:hover, 
+#lecture a:visited,
+#tutorials a, 
+#tutorials a:link,
+#tutorials a:hover, 
+#tutorials a:visited
+{
+    color: #E9D5DA;
 }
