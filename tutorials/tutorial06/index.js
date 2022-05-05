@@ -94,7 +94,7 @@ const tracks = [
 let i = 0;
 for (const track of tracks) {
   const template = `
-    <div data-index="i" onclick="playSong(event);">
+    <div data-index="${i}" onclick="playSong(event);">
         <img src="${track.image_url}" />
         <h2>${track.name}</h2>
     </div>`;
