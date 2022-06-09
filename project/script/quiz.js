@@ -49,10 +49,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             get_point = ""
             
-            get_point += iCount == 2 ? "I" : "E";
-            get_point += nCount == 2 ? "N" : "S";
-            get_point += tCount == 2 ? "T" : "F";
-            get_point += jCount == 2 ? "J" : "P";
+            get_point += iCount >= 2 ? "I" : "E";
+            get_point += nCount >= 2 ? "N" : "S";
+            get_point += tCount >= 2 ? "T" : "F";
+            get_point += jCount >= 2 ? "J" : "P";
           }
 
           quiz_container.querySelectorAll('point').forEach((get_str) => {
